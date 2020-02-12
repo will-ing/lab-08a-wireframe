@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background-image: repeating-radial-gradient(white, gray, black);
+}
+
+body header {
+  vertical-align: center;
+  display: flex;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+  
+}
+
+nav {
+  display: inline-block;
+  
+}
+
+header img {
+  width: 200px;
+  height: ;
+  display: inline-block;
+}
+
+nav ul {
+  display: inline-block;
+}
+
+nav ul li {
+  margin: 0 30px;
+  display: inline-block;
+  font-size: 30px;
+}
+
+nav ul li:hover {
+  color: aqua;
+}
+main {
+  margin: 30px auto;
+  width: 970px;
+  
+}
+
+main img {
+  width: 960px;
+  height: 450px;
+  
+}
+
+main div {
+  display: flex;
+  margin: 30px 0px;
+  box-shadow: blue 5px -5px 30px;
+
+}
+
+main div img {
+  display: inline-block;
+  margin-left: 30px;
+  width: 300px;
+  height: 375px;
+}
+
+main div img:first-of-type {
+  display: inline-block;
+  margin-left: 0px;
+  
+  height: 375px;
+}
+
+main div figure {
+  margin-left: 0px;
+}
+
+main div figure img {
+  width: 480px;
+  height: 400px;
+  display: inline-block;
+  
+}
+
+main div article {
+  
+  height: 400px;
+  display: inline-block;
+  overflow: scroll;
+}
+
+button {
+  width: 60%;
+  height: 60px;
+
+}
+
+button:hover {
+  background-color: blue;
+}
+
+footer {
+  vertical-align: center;
+  display: flex;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+  height: 90px;
+}
